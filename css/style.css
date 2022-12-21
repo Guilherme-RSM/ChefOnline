@@ -1,0 +1,97 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*TELA DE CARREGAMENTO*/
+#splash-screen {
+    background: #c10000;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    width: 100%;
+    margin-bottom:32px;
+}
+
+#container {
+    height: 100vh;
+
+
+    background-image: url(../img/hamburguer-1.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    
+
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.form-shield {
+    width:100vw;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#input-password {
+    margin-top:16px;
+}
+
+input {
+
+    width:280px;
+    height:40px;
+    border-radius:5px;
+    border:1px solid rgba(0, 0, 0, 0.555);
+    
+}
+
+input::placeholder {
+    padding:10px;
+}
+
+
+#botoes-para-logar {
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-top:32px;
+    width:100vw;
+}
+
+button {
+    width:280px;
+    height:40px;
+    border-radius:5px;
+    border:none;
+    background:#c10000;
+    color:#fff;
+    box-shadow:5px 6px 10px #1a1616a4;
+}
+
+button:last-child {
+    margin-top:16px;
+    background:#3b5998;
+}
+
+button:hover {
+    cursor:pointer;
+    border:2px solid rgba(0, 0, 0, 0.322);
+    transition:0.9s;
+}
+
+i {
+    margin-right:10px;
+}
